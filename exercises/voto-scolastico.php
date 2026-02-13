@@ -1,15 +1,15 @@
 <?php
-$voto = 5;
+$grade = 5;
 
-echo "<h1>Voto: $voto</h1>";
+echo "<h1>Voto: $grade</h1>";
 ?>
 
 <h2>Valutazione:
     <?php
-    if ($voto >= 6) {
-        if ($voto >= 7 && $voto <= 8) {
+    if ($grade >= 6) {
+        if ($grade >= 7 && $grade <= 8) {
             echo "Buono";
-        } else if ($voto >= 9 && $voto <= 10) {
+        } else if ($grade >= 9 && $grade <= 10) {
             echo "Ottimo";
         } else {
             echo "Sufficente";
