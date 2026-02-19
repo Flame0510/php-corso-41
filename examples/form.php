@@ -21,7 +21,7 @@ $email = $_POST['email'];
     <label for="email">Email:</label>
     <!-- "name=" è il nome del campo che viene inviato al server -->
     <input type="email" id="email" name="email" required>
-
+ 
     <!-- Invio i dati tramite POST al server -->
     <button type="submit">Invia</button>
 </form>

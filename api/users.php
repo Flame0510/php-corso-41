@@ -33,3 +33,19 @@ $users = [
 
 // Stampo l'intero array in formato JSON
 echo json_encode($users);
+
+// Output JSON
+/* [
+    {
+    "name": "Alice",
+    "age": 30,
+    "email": "tqPZL@example.com",
+    "city": "New York"
+},
+{
+    "name": "Bob",
+    "age": 25,
+    "email": "h5TbI@example.com",
+    "city": "London"
+}
+] */
